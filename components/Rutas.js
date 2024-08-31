@@ -8,9 +8,6 @@ import OrdenarComida from './OrdenarComida';
 import Apps from './Apps';
 import Inicio from './Inicio';
 import MenuCategorias from './MenuCategorias';
-import Twitter from './Twitter';
-import Imagenes from './Imagenes';
-import Wallpaper from './Wallpaper';
 import CategoriaComponent from './CategoriaComponent';
 import MenuProductos from './MenuProductos';
 import Carrito from './Carrito';
@@ -32,9 +29,6 @@ export default function Rutas({ route }) {
                 <Stack.Screen name="Inicio" component={ Inicio } options={{ headerStyle: { backgroundColor: 'black' }, headerTintColor: 'white' }} />
                 <Stack.Screen name="MenuCategorias" component={ MenuCategorias } options={{ headerStyle: { backgroundColor: 'black' }, headerTintColor: 'white', title: 'Menú' }} />
                 <Stack.Screen name="CategoriaComponent" component={ CategoriaComponent } options={{ headerStyle: { backgroundColor: 'black' }, headerTintColor: 'white' }} />
-                <Stack.Screen name="Twitter" component={ Twitter } options={{ headerStyle: { backgroundColor: 'black' }, headerTintColor: 'white' }} />
-                <Stack.Screen name="Imagenes" component={ Imagenes } options={{ headerStyle: { backgroundColor: 'black' }, headerTintColor: 'white' }} />
-                <Stack.Screen name="Wallpaper" component={ Wallpaper } />
                 <Stack.Screen name="menu_productos" component={ MenuProductos } options={{ title: 'Productos', headerStyle: { backgroundColor: 'black' }, headerTintColor: 'white' }} />
                 <Stack.Screen name="carrito" component={ Carrito } options={{ title: 'Carrito', headerTitleAlign: 'center', headerStyle: { backgroundColor: 'black' }, headerTintColor: 'white' }} />
                 <Stack.Screen name="mesa" component={ SeleccionarMesa } options={{ title: 'Seleccionar mesa', headerTitleAlign: 'center', headerStyle: { backgroundColor: 'black' }, headerTintColor: 'white' }} />
